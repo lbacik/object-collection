@@ -1,0 +1,22 @@
+{
+  "name": "lbacik/object-collection",
+  "description": "Object collection based on SPL ArrayObject class",
+  "minimum-stability": "stable",
+  "type": "library",
+  "license": "LGPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Łukasz Bacik",
+      "email": "mail@luka.sh",
+      "homepage": "https://github.com/lbacik/object-collection"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Sushi\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
